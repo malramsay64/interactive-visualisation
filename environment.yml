@@ -1,0 +1,18 @@
+name: interactive-visualisation
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  # Running Simulations
+  - python=3.6
+  - numpy=1.16.*
+  - malramsay::sdanalysis=0.9.5
+  - ipywidgets=7.5
+  - bokeh=1.2
+  - altair=3.1
+  - matplotlib=3.1
+  - jupyterlab=1.1
+  - ipympl=0.3.3
+  - vega
+  - rise=5.5.1
