@@ -1,0 +1,5 @@
+# Downloaded data files
+data
+
+# Altair data files
+altair-data*.json
