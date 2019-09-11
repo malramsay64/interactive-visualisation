@@ -1,8 +1,11 @@
 # Interactive Visualisations
 
-This is a demonstration of a range of interactive visualisations for data analysis.
-The notebook is available for interacting with on [mybinder]
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/malramsay64/interactive-visualisation/master?filepath=interactive.ipynb)
 
+This is a demonstration of a range of interactive visualisations for data analysis.
+The notebook is available on [mybinder] which allows for interacting
+with the visualisations.
+This is the fastest way to get started.
 
 ## Installation
 
@@ -51,7 +54,7 @@ will open a jupyter notebook interface in the current directory.
 
 ## Presenting
 
-The `interactive.ipynb` notebook is designed 
+The `interactive.ipynb` notebook is designed
 to be presented as slides,
 however for brevity and clarity
 much of the code is in hidden cells.
@@ -69,5 +72,5 @@ commented out since it never stops running.
 sdanalysis figure -m model/knn-trimer.pkl --directory data/dataset
 ```
 
-[mybinder]: https://mybinder.org/https://mybinder.org/
+[mybinder]: https://mybinder.org/v2/gh/malramsay64/interactive-visualisation/master?filepath=interactive.ipynb
 [miniconda]: https://docs.conda.io/en/latest/miniconda.html
