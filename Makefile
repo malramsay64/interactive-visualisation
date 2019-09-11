@@ -6,7 +6,7 @@
 .DEFAULT: datafiles
 
 datafiles: data/dataset.tar.bz2 data/dynamics_clean_agg.h5
-	tar xvf data/dataset.tar.bz2
+	cd data && tar xvf dataset.tar.bz2
 
 data/dataset.tar.bz2: | data
 	wget -O data/dataset.tar.bz2 https://zenodo.org/record/3403403/files/dataset.tar.bz2
